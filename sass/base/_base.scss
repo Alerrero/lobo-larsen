@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html { 
+    //Good practice setting the root size to 10px in order to work with rem all over the page
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}

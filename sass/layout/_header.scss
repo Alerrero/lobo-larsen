@@ -1,0 +1,11 @@
+.header {
+    height: 7rem;
+    position: relative;
+    
+    &__logo {
+        height: 100%;
+        position: absolute;
+        top: 2rem;
+        left: 3rem;
+    }
+}
